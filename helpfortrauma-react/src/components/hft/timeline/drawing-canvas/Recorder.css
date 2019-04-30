@@ -1,0 +1,101 @@
+.recoder-box .recorder-btn{
+    display: inline;
+    padding: 4px;
+}
+
+.recoder-box .alice-carousel__wrapper{height: 100% !important;overflow: inherit !important;}
+
+.recoder-box .drawing-btn {
+    position: absolute;
+    width: 100%;
+  
+    bottom: -70px;
+    padding: 10px;
+    display: block;
+}
+.c-img1 {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.recoder-box  .alice-carousel{padding: 4px 0px !important;}
+.recoder-box li.alice-carousel__stage-item .c-img1 {
+    height: 200px;
+}
+.recoder-box li.alice-carousel__stage-item.__active .c-img1 {
+    height: 100%;
+}
+ .recording_drawing{background: #fff;height: 550px;}
+ .recoder-box .carousel .slider-wrapper{overflow:inherit;}
+ .recoder-box .carousel.carousel-slider {
+    overflow: inherit;
+}
+
+ 
+.recoder-box .carousel.carousel-slider {
+    height: 500px;
+    margin: 0 auto;
+}
+.recoder-box .recording_drawing img{width: 100%;}
+.recoder-box .alice-carousel__prev-btn-item, .recoder-box .alice-carousel__next-btn-item {
+    background: #222;
+    color:#fff;
+}
+
+.recoder-box .alice-carousel__prev-btn-item, .recoder-box .alice-carousel__next-btn-item {
+    background: #222;
+    color: #fff;
+}
+
+.alice-carousel__next-btn-item {
+    right: 0;
+}
+.alice-carousel__prev-btn-item {
+    left: 0 !important;
+}
+
+
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+    display: inline-block;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #6e7ebc;
+    cursor: pointer;
+    font-size: 1.9em;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #6e7ebc;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+    border: none !important;
+}
+.alice-carousel__prev-btn-item:after {
+    content: '\2039';
+}
+.alice-carousel__prev-btn-item:before, .alice-carousel__next-btn-item:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.alice-carousel__next-btn [data-area]:after, .alice-carousel__prev-btn [data-area]:after {
+    content: ''!important;
+}
+.alice-carousel__next-btn-item:after {
+    content: '\203A';
+}
+
+
+.recoder-box .alice-carousel__stage-item{margin: 0px;}
+.recored_wave{min-height: 100px;}
