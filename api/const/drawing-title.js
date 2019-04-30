@@ -1,1 +1,0 @@
-exports.title =['Before', 'Startle', 'Fight or Flight', 'Freeze', 'Altered State', 'Automatic Obedience', 'Self-Repair', 'After', 'The End'];
